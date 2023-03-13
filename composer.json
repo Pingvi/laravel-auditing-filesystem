@@ -21,6 +21,7 @@
         "export"
     ],
     "type": "package",
+    "minimum-stability": "dev",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/betapeak/laravel-auditing-filesystem/issues",
