@@ -1,6 +1,6 @@
 <?php
 
-namespace BetaPeak\Auditing\Drivers;
+namespace Pingvi\Auditing\Drivers;
 
 use DateTime;
 use Illuminate\Filesystem\FilesystemAdapter;

@@ -1,10 +1,10 @@
 <?php
 
-namespace BetaPeak\Auditing\Drivers\Tests\Remote;
+namespace Pingvi\Auditing\Drivers\Tests\Remote;
 
 use Aws\S3\S3Client;
-use BetaPeak\Auditing\Drivers\FilesystemDriver;
-use BetaPeak\Auditing\Drivers\Tests\Models\Person;
+use Pingvi\Auditing\Drivers\FilesystemDriver;
+use Pingvi\Auditing\Drivers\Tests\Models\Person;
 use Illuminate\Support\Facades\Storage;
 use Orchestra\Testbench\TestCase;
 

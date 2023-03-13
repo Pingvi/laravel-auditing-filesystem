@@ -1,5 +1,5 @@
 {
-    "name": "betapeak/laravel-auditing-filesystem",
+    "name": "pingvi/laravel-auditing-filesystem",
     "description": "A filesystem driver for the owen-it/laravel-auditing package. Allows storage of the audits in CSV files, across all registered Laravel disks.",
     "keywords": [
         "accountability",
@@ -35,18 +35,18 @@
     "require": {
         "php": ">=7.0",
         "ext-json": "*",
-        "owen-it/laravel-auditing": "^10.0",
+        "owen-it/laravel-auditing": "^13.3",
         "league/csv": "^9.0",
-        "league/flysystem": "~1.0"
+        "league/flysystem": "^3.8.0"
     },
     "autoload": {
         "psr-4": {
-            "BetaPeak\\Auditing\\Drivers\\": "src/"
+            "Pingvi\\Auditing\\Drivers\\": "src/"
         }
     },
     "autoload-dev": {
       "psr-4": {
-        "BetaPeak\\Auditing\\Drivers\\Tests\\": "tests/"
+        "Pingvi\\Auditing\\Drivers\\Tests\\": "tests/"
       }
   },
     "require-dev": {

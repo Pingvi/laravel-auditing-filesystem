@@ -1,9 +1,9 @@
 <?php
 
-namespace BetaPeak\Auditing\Drivers\Tests\Local;
+namespace Pingvi\Auditing\Drivers\Tests\Local;
 
-use BetaPeak\Auditing\Drivers\FilesystemDriver;
-use BetaPeak\Auditing\Drivers\Tests\Models\Person;
+use Pingvi\Auditing\Drivers\FilesystemDriver;
+use Pingvi\Auditing\Drivers\Tests\Models\Person;
 use Carbon\Carbon;
 use Orchestra\Testbench\TestCase;
 
